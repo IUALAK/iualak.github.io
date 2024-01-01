@@ -50,8 +50,8 @@ header a {
 section {
   color: var(--fg-color);
   font-size: 140%;
-  margin: 2% 2% 2% 2%;
-  padding: 1% 1% 1% 1%;
+  margin: 1% 2% 1% 2%;
+  padding: 2% 1% 2% 1%;
   border: 0.5ch solid var(--border-color);
   border-radius: 3ch;
 }
