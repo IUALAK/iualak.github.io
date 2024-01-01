@@ -11,14 +11,14 @@
        <a href="index.html">Iunes Al Akhras</a>
 <!-- for links we set onclick attribute later-->
       <nav>
-          <a href="#" id="about"></a>
-          <a href="#" id="education"></a>
-          <a href="#" id="skills"></a>
-          <a href="#" id="experience"></a>
+          <a href="#aboutSection" id="about"></a>
+          <a href="#educationSection" id="education"></a>
+          <a href="#skillsSection" id="skills"></a>
+          <a href="#experienceSection" id="experience"></a>
       </nav>   
       <div>
-        <a href="#">EN</a>
-        <a href="#">FR</a>
+        <a href="#" onclick="setLanguage(enJson); localStorage.setItem(&quot;language&quot;, &quot;EN&quot;);">EN</a>
+        <a href="#" onclick="setLanguage(frJson)">FR</a>
       </div>
     </header> 
     <section id="aboutSection">

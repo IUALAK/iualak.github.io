@@ -28,9 +28,15 @@ a:hover {
 }
 
 header{
-  height: 10vh;
+  position: fixed;
+  width:100%;
+  border: 0.3ch solid;
   display: flex;
   justify-content: space-between;
+  top: 0px;
+  background: var(--bg-color);
+  padding-top: 1ch;
+  padding-bottom: 1ch;
 }
 
 header a {
@@ -48,6 +54,10 @@ section {
   padding: 1% 1% 1% 1%;
   border: 0.5ch solid var(--border-color);
   border-radius: 3ch;
+}
+
+#aboutSection {
+  margin-top: 4%;
 }
 
 h2 {
@@ -70,6 +80,3 @@ dd {
   margin-left: 0.5%;
 }
 
-table {
-  width: 100%;
-}
