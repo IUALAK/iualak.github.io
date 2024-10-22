@@ -1,35 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <title>Iunes AL AKHRAS</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-       <a href="index.html">Iunes Al Akhras</a>
-<!-- for links we set onclick attribute later-->
-      <nav>
-          <a href="#aboutSection" id="about"></a>
-          <a href="#educationSection" id="education"></a>
-          <a href="#skillsSection" id="skills"></a>
-          <a href="#experienceSection" id="experience"></a>
-      </nav>   
-      <div>
-        <a href="#" onclick="setLanguage(enJson); localStorage.setItem(&quot;language&quot;, &quot;EN&quot;)">EN</a>
-        <a href="#" onclick="setLanguage(frJson); localStorage.setItem(&quot;language&quot;, &quot;FR&quot;)">FR</a>
-      </div>
-    </header> 
-    <section id="aboutSection">
-    </section>
-    <section id="educationSection">
-    </section>
-    <section id="skillsSection"> 
-    </section>
-    <section id="experienceSection">
-    </section>
-    <script src="script.js">
-    </script>
-  </body>
+    <head>
+        <title>Iunes AL AKHRAS</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <a href="index.html">Iunes Al Akhras</a>
+            <!-- for links we set onclick attribute later-->
+            <nav>
+                <a href="#aboutSection" id="about"></a>
+                <a href="#educationSection" id="education"></a>
+                <a href="#skillsSection" id="skills"></a>
+                <a href="#experienceSection" id="experience"></a>
+            </nav>
+            <div>
+                <a
+                    href="#"
+                    onclick='setLanguage(enJson); localStorage.setItem("language", "EN")'
+                    >EN</a
+                >
+                <a
+                    href="#"
+                    onclick='setLanguage(frJson); localStorage.setItem("language", "FR")'
+                    >FR</a
+                >
+                <a
+                    href="#"
+                    onclick='setLanguage(ruJson); localStorage.setItem("language", "RU")'
+                    >RU</a
+                >
+            </div>
+        </header>
+        <section id="aboutSection"></section>
+        <section id="educationSection"></section>
+        <section id="skillsSection"></section>
+        <section id="experienceSection"></section>
+        <script src="script.js"></script>
+    </body>
 </html>
